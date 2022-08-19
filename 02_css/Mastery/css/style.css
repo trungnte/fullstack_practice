@@ -2,12 +2,57 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+  font-family: font-awesome, Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
+.header {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+}
 
+/* Step1: Delete style of li */
+.header ul{
+  list-style: none;
+  margin: 10px;
+}
+/* Step2: Delete underground of tag <a> */
+.header a {
+  text-decoration: none;
+   /* text color black */
+  color: black;
+}
+/* Step3: navigation bar menu inline */
+.header li{
+  display: inline;
+  /* Tag to tag distance */
+  margin: 12px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* for logo and text Mastery */
+.header .logo_text{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* ====================================== */
 /* CAROUSEL */
-
+.carousel {
+    background-image: url(../img/2.jpg);
+    height: 670px;
+    /* background-position: center; */
+    background-size: cover;
+}
 /* WELCOME */
 
 /* NUMBER */
