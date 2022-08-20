@@ -101,11 +101,38 @@ html, body {
   padding: 80px;
 }
 
+.number__parent {
+  margin: auto;
+  width: 80%;
+  /* will be deleted! It's only for debug */
+  /* background-color: green; */
+}
+
 .number__content{
   float: left;
   width: 25%;
 }
 
+.number__number {
+  float: left;
+  width: 25%;
+  padding: 10px;
+
+  font-weight: bold;
+  font-size: 60px;
+  text-align: right;
+  /* background-color: pink; */
+
+}
+.number__description {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  margin: 12px 0px;
+
+  font-size: 20px;
+  /* background-color: orange; */
+}
 
 /* DEPARTMENT */
 
