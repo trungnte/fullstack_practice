@@ -1,5 +1,114 @@
 /* Global */
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+/* Header color, margin,... */
+.header {
+  background-color: #f8e1db;
+  /* Chỉnh kích thước bên trong thẻ, từ nội dung ra đến border padding */
+  padding: 10px 55px;
+}
+
+/* B1: Xoá dấu chấm của thẻ li */
+.header ul {
+  list-style: none;
+}
+/* B2: Xoá dấu gạch chân, chỉnh màu chữ */
+.header a {
+  text-decoration: none;
+  color: black;
+}
+/* B3: Chỉnh các menu lên cùng 1 hàng */
+.header li{
+  display: inline;
+  /* Khoảng cách giữa các thẻ li dùng margin */
+  margin: 10px;
+}
+
+/* CAROUSEL */
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 800px;
+  /* Canh giữa hình theo ngang và dọc */
+  background-position: center; 
+  /* Kéo dài kích thước hình nền để phủ vừa đủ thẻ đang dc thêm hình */
+  background-size: cover;
+}
+
+/* ACTIVITIES */
+.activities {
+  background-color: #faf4f2;
+  padding: 60px;
+}
+
+.activities .activities__title{
+  text-align: center;
+}
+
+.activities__item {
+  /* Xài foat, width kết hợp thêm box-sizing */
+  float: left;
+  width: 25%; 
+  background-color: orange; 
+  /* debug layout */
+  border: 2px solid black;
+  padding: 0px 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.activities__card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.activities__img {
+  width: 100%;
+}
+
+.activities__img img{
+  border-radius: 20px;
+}
+
+.activities__detail{
+  color: #3b3755;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 11px;
+}
+
+
+
+.activities__detail button{
+  color: #3b3755;
+  font-size: 15px;
+  border-radius: 20px;
+  border-style: none;
+  height: 45px;
+  width: 60%;
+  margin-top: 11px;
+}
+
+.activities__btnviewall {
+  align-items: center;
+}
+.activities__btnviewall button{
+  color: #3b3755;
+  font-size: 15px;
+  border-radius: 20px;
+  border-color: red;
+
+  height: 45px;
+  width: 60%;
+  margin-top: 11px;
 }
