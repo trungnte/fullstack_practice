@@ -48,15 +48,16 @@
 
 .activities .activities__title{
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .activities__item {
   /* Xài foat, width kết hợp thêm box-sizing */
   float: left;
   width: 25%; 
-  background-color: orange; 
+  /* background-color: orange;  */
   /* debug layout */
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 0px 20px;
 }
 
@@ -100,15 +101,61 @@
 }
 
 .activities__btnviewall {
-  align-items: center;
+  text-align: center;
 }
+
 .activities__btnviewall button{
-  color: #3b3755;
+  /* color: #3b3755; */
+  background-color: transparent;
   font-size: 15px;
   border-radius: 20px;
   border-color: red;
 
   height: 45px;
-  width: 60%;
-  margin-top: 11px;
+  width: 200px;
+  margin-top: 50px;
+}
+
+
+/* CONTACT */
+.contact {
+  background-color: #f8e1db;
+  /* background-color: yellow; */
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.contact__left, .contact__right {
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+
+.contact__left{
+  background-color: url(../img/mask.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__right {
+  padding-top: 70px;
+}
+
+.contact__right p {
+  margin: 12px 0 30px;
+}
+
+.contact__right h3 {
+  margin-bottom: 21px;
+}
+
+.contact__app, .contact__us{
+  float: left;
+  width: 50%;
+}
+
+.contact__us i{
+  color: #e76f51;
+  font-size: 25px;
+  margin-right: 10px;
 }
