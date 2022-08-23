@@ -1,9 +1,21 @@
 /* Global */
 * {
-  margin: 0%;
-  padding: 0%;
+  /* Xoá các khoảng cách mặc định của trình duyệt */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  color: #8d8d8d;
+  background-color: #faf4f2;
+}
+
+.clear {
+  clear: both;
+}
+
 
 /* HEADER */
 
@@ -17,17 +29,21 @@
 /* B1: Xoá dấu chấm của thẻ li */
 .header ul {
   list-style: none;
+  margin-top: 10px;
 }
+
 /* B2: Xoá dấu gạch chân, chỉnh màu chữ */
-.header a {
+.header ul a {
   text-decoration: none;
-  color: black;
+  color: #3b3755;
+  font-size: 18px;
 }
+
 /* B3: Chỉnh các menu lên cùng 1 hàng */
-.header li{
+.header li {
   display: inline;
   /* Khoảng cách giữa các thẻ li dùng margin */
-  margin: 10px;
+  margin-right: 40px;
 }
 
 /* CAROUSEL */
@@ -35,103 +51,132 @@
   background-image: url(../img/BG.png);
   height: 800px;
   /* Canh giữa hình theo ngang và dọc */
-  background-position: center; 
+  background-position: center;
   /* Kéo dài kích thước hình nền để phủ vừa đủ thẻ đang dc thêm hình */
   background-size: cover;
 }
 
 /* ACTIVITIES */
 .activities {
-  background-color: #faf4f2;
-  padding: 60px;
+  text-align: center;
+  margin-top: 80px;
 }
 
-.activities .activities__title{
-  text-align: center;
+.activities__title {
+  font-size: 24px;
+  color: #8d8d8d;
   margin-bottom: 30px;
 }
 
 .activities__item {
   /* Xài foat, width kết hợp thêm box-sizing */
   float: left;
-  width: 25%; 
+  width: 25%;
   /* background-color: orange;  */
   /* debug layout */
   /* border: 2px solid black; */
-  padding: 0px 20px;
+  padding: 15px;
 }
 
-.clear {
-  clear: both;
-}
+
 
 .activities__card {
   background-color: white;
-  padding: 20px;
+  padding: 40px;
   border-radius: 20px;
-  text-align: center;
 }
 
-.activities__img {
+.activities__img img {
+  border-radius: 20px;
   width: 100%;
 }
 
-.activities__img img{
-  border-radius: 20px;
+.activities__img {
+  position: relative;
 }
 
-.activities__detail{
+.activities_love {
+  position: absolute;
+
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  /* align center */
+  border-radius: 14px;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #e76f51;
+  font-weight: bold;
+  cursor: pointer;
+  /* z-index: 10; */ /* what is it? */
+}
+
+.activities_love img {
+  width: 80%;
+}
+
+.activities__detail h3 {
   color: #3b3755;
-  padding: 10px;
   font-size: 18px;
   line-height: 28px;
   margin-top: 11px;
 }
 
-
-
-.activities__detail button{
-  color: #3b3755;
-  font-size: 15px;
-  border-radius: 20px;
-  border-style: none;
-  height: 45px;
-  width: 60%;
+.activities__detail p {
+  line-height: 28px;
   margin-top: 11px;
+  margin-bottom: 25px;
 }
 
-.activities__btnviewall {
-  text-align: center;
+.activities__detail button {
+  padding: 13px 54px;
+  border-radius: 25px;
+  color: #8d8d8d;
+  border: transparent;
+  background-color: rgba(141, 141, 141, 0.2);
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-.activities__btnviewall button{
-  /* color: #3b3755; */
+.activities__itemviewall button{
+  padding: 13px 71px;
+  border-radius: 25px;
+
+  border: 1px solid #e76f51;
+  color: #e76f51;
   background-color: transparent;
-  font-size: 15px;
-  border-radius: 20px;
-  border-color: red;
+  font-size: 18px;
 
-  height: 45px;
-  width: 200px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  cursor: pointer;
+}
+
+.activities__detail button:hover,
+.activities__itemviewall button:hover {
+  background-color: #e76f51;
+  color: white;
 }
 
 
 /* CONTACT */
 .contact {
   background-color: #f8e1db;
-  /* background-color: yellow; */
   border-radius: 20px;
   margin-bottom: 100px;
 }
 
-.contact__left, .contact__right {
+.contact__left,
+.contact__right {
   float: left;
   width: 50%;
   padding: 20px 60px;
 }
 
-.contact__left{
+.contact__left {
   background-color: url(../img/mask.png);
   background-size: cover;
   background-position: center;
@@ -149,12 +194,13 @@
   margin-bottom: 21px;
 }
 
-.contact__app, .contact__us{
+.contact__app,
+.contact__us {
   float: left;
   width: 50%;
 }
 
-.contact__us i{
+.contact__us i {
   color: #e76f51;
   font-size: 25px;
   margin-right: 10px;
