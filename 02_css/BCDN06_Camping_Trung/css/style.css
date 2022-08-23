@@ -35,7 +35,7 @@ body {
 /* B2: Xoá dấu gạch chân, chỉnh màu chữ */
 .header ul a {
   text-decoration: none;
-  color: #3b3755;
+  color: #3b3735;
   font-size: 18px;
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .activities__detail h3 {
-  color: #3b3755;
+  color: #3b3735;
   font-size: 18px;
   line-height: 28px;
   margin-top: 11px;
@@ -167,7 +167,9 @@ body {
   background-color: #f8e1db;
   border-radius: 20px;
   margin-bottom: 100px;
+  /* border: 1px solid red; */ /* debug layout */
 }
+
 
 .contact__left,
 .contact__right {
@@ -177,9 +179,10 @@ body {
 }
 
 .contact__left {
-  background-color: url(../img/mask.png);
+  background: url(../img/mask.png);
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 
 .contact__right {
@@ -204,4 +207,51 @@ body {
   color: #e76f51;
   font-size: 25px;
   margin-right: 10px;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #f8e1db;
+  border-radius: 100px 100px 0 0 ;
+  padding: 100px 30px;
+  color: #3b3735;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+
+.footer__about {
+  float: left;
+  width: 40%;
+  line-height: 28px;
+  padding: 0 20px;
+}
+
+.footer__list {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.footer__nav {
+  float: left;
+  width: 33.33%;
+}
+
+.footer__nav li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: #3b3735;
+}
+
+.footer__copyrights {
+  text-align: center;
+  padding-top: 30px;
 }
