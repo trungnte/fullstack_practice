@@ -1,0 +1,142 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+.header {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+}
+
+/* Step1: Delete style of li */
+.header ul{
+  list-style: none;
+  margin: 10px;
+}
+/* Step2: Delete underground of tag <a> */
+.header a {
+  text-decoration: none;
+   /* text color black */
+  color: black;
+}
+/* Step3: navigation bar menu inline */
+.header li{
+  display: inline;
+  /* Tag to tag distance */
+  margin: 12px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* for logo and text Mastery */
+.header .logo_text{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/* ====================================== */
+/* CAROUSEL */
+.carousel {
+  background-image: url(../img/2.jpg);
+  height: 700px;
+  background-position: top;
+  background-size: cover;
+}
+
+/* ====================================== */
+/* WELCOME */
+.welcome {
+  background-color: white;
+  padding: 35px;
+}
+
+.welcome__content {
+  float: left;
+  width: 50%;
+  padding: 40px;
+}
+
+.welcome__text{
+  color: grey;
+  font-size: 18px;
+  padding: 20px 0px 45px 0px;
+  line-height: 1.5;
+}
+
+.welcome__btn{
+  padding: 15px 25px;
+  background-color: rgb(255, 196, 0);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+}
+
+.welcome__img {
+  width: 100%;
+}
+
+
+/* ====================================== */
+
+/* NUMBER */
+.number {
+  background-color: rgb(215, 214, 214);
+  padding: 80px;
+}
+
+.number__parent {
+  margin: auto;
+  width: 80%;
+  /* will be deleted! It's only for debug */
+  /* background-color: green; */
+}
+
+.number__content{
+  float: left;
+  width: 25%;
+}
+
+.number__number {
+  float: left;
+  width: 25%;
+  padding: 10px;
+
+  font-weight: bold;
+  font-size: 60px;
+  text-align: right;
+  /* background-color: pink; */
+
+}
+.number__description {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  margin: 12px 0px;
+
+  font-size: 20px;
+  /* background-color: orange; */
+}
+
+/* DEPARTMENT */
+
+/* NEWS */
+
+/* FOOTER */
