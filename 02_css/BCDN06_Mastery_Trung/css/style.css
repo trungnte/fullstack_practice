@@ -166,6 +166,7 @@ html, body {
   padding: 20px;
   background-color: #002146;
   text-align: center;
+  border-radius: 5px;
 }
 
 .department__item a {
@@ -176,7 +177,7 @@ html, body {
 .department__item br {
   font-size: 5px;
 }
-.department__item span {
+.department__item p {
   font-size: 18px;
 }
 
