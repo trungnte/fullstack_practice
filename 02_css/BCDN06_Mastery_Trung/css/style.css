@@ -67,11 +67,17 @@ html, body {
   padding: 35px;
 }
 
+.welcome__wrapper {
+  margin: auto;
+  width: 80%;
+}
+
 .welcome__content {
   float: left;
   width: 50%;
-  padding: 40px;
+  padding: 30px;
 }
+
 
 .welcome__text{
   color: grey;
@@ -79,6 +85,7 @@ html, body {
   padding: 20px 0px 45px 0px;
   line-height: 1.5;
 }
+
 
 .welcome__btn{
   padding: 15px 25px;
@@ -89,8 +96,10 @@ html, body {
   border-radius: 4px;
 }
 
-.welcome__img {
+.welcome__img img{
   width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 
@@ -98,7 +107,7 @@ html, body {
 
 /* NUMBER */
 .number {
-  background-color: rgb(215, 214, 214);
+  background-color: #f6f6f6;
   padding: 80px;
 }
 
@@ -135,8 +144,45 @@ html, body {
   /* background-color: orange; */
 }
 
+/* ====================================== */
 /* DEPARTMENT */
+.department {
+  padding: 80px 0;
+}
+.department__wrapper {
+  margin: auto;
+  width: 80%;
+}
 
+.department__item {
+  float: left;
+  width: 25%;
+
+  font-size: 50px;
+  padding: 20px;
+}
+
+.department__border {
+  padding: 20px;
+  background-color: #002146;
+  text-align: center;
+}
+
+.department__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.department__item br {
+  font-size: 5px;
+}
+.department__item span {
+  font-size: 18px;
+}
+
+/* ====================================== */
 /* NEWS */
 
+
+/* ====================================== */
 /* FOOTER */
