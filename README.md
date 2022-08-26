@@ -7,6 +7,7 @@
 
 ## Features
 
+- 0.0.2 Mastery Assignment (HTML/CSS).
 - 0.0.1 Camping Assignment (HTML/CSS).
 - 0.0.0 Initial repository.
 

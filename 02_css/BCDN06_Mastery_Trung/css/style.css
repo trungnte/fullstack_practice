@@ -1,0 +1,394 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+.header {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+}
+
+/* Step1: Delete style of li */
+.header ul{
+  list-style: none;
+  margin: 10px;
+}
+/* Step2: Delete underground of tag <a> */
+.header a {
+  text-decoration: none;
+   /* text color black */
+  color: black;
+}
+/* Step3: navigation bar menu inline */
+.header li{
+  display: inline;
+  /* Tag to tag distance */
+  margin: 12px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* for logo and text Mastery */
+.header .logo_text{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/* ====================================== */
+/* CAROUSEL */
+.carousel {
+  background-image: url(../img/2.jpg);
+  height: 700px;
+  background-position: top;
+  background-size: cover;
+}
+
+/* ====================================== */
+/* WELCOME */
+.welcome {
+  background-color: white;
+  padding: 35px;
+}
+
+.welcome__wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.welcome__content {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+
+.welcome__text{
+  color: grey;
+  font-size: 18px;
+  padding: 20px 0px 45px 0px;
+  line-height: 1.5;
+}
+
+
+.welcome__btn{
+  padding: 15px 25px;
+  background-color: rgb(255, 196, 0);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+}
+
+.welcome__img img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+/* ====================================== */
+
+/* NUMBER */
+.number {
+  background-color: #f6f6f6;
+  padding: 80px;
+}
+
+.number__parent {
+  margin: auto;
+  width: 80%;
+  /* will be deleted! It's only for debug */
+  /* background-color: green; */
+}
+
+.number__content{
+  float: left;
+  width: 25%;
+}
+
+.number__number {
+  float: left;
+  width: 25%;
+  padding: 10px;
+
+  font-weight: bold;
+  font-size: 60px;
+  text-align: right;
+  /* background-color: pink; */
+
+}
+.number__description {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  margin: 12px 0px;
+
+  font-size: 20px;
+  /* background-color: orange; */
+}
+
+/* ====================================== */
+/* DEPARTMENT */
+.department {
+  padding: 80px 0;
+}
+.department__wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.department__item {
+  float: left;
+  width: 25%;
+
+  font-size: 55px;
+  padding: 20px;
+  line-height: 2;
+}
+
+.department__border {
+  padding: 20px;
+  background-color: #002146;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.department__item a {
+  text-decoration: none;
+  color: white;
+  margin: 30px 0;
+}
+
+.department__item br {
+  font-size: 5px;
+}
+.department__item p {
+  font-size: 18px;
+}
+
+/* ====================================== */
+/* NEWS */
+.news {
+  padding: 30px;
+  background-color: #f6f6f6;
+}
+
+.news__wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.news__item {
+  float: left;
+  width: 50%;
+  /* border: 3px solid black; */
+  padding: 20px;
+}
+
+.news__content {
+  background-color: white;
+  padding: 0 30px;
+  /* margin-top: 40px; */
+  margin: 40px 30px 20px 0;
+
+}
+
+.news__posts {
+  padding: 15px 0;
+  border-bottom: 1px solid #dbdddd;
+}
+
+.news__contentButton {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.news__contentButton button{
+  margin-top: 20px;
+  padding: 20px 35px;
+  background-color: #fcc800;
+  border: 1px solid #fcc800;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.news__postPicture {
+  float: left;
+  width: 30%;
+  padding: 10px 0;
+}
+.news__postDetail {
+  float: left;
+  width: 70%;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.news__postDetail p:first-of-type{
+  color: #929393;
+  padding: 15px 0;
+}
+
+.news__postDetail p:last-of-type {
+  color: #7c7c7c;
+  line-height: 1.5;
+}
+
+.news__postPicture img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ------------------------------------- */
+/* events */
+
+.news__eventLeft {
+  float: left;
+  width: 20%;
+  padding: 30px 10px;
+  background-color: white;
+}
+
+.news__eventLeftCard {
+  /* width: 15%; */
+  text-align: center;
+}
+.news__eventLeftCardTop {
+  color: black;
+  background-color: #fcc800;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+.news__eventLeftCardTop p:first-of-type{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.news__eventLeftCardBottom {
+  color: white;
+  background-color: #032146;
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.news__eventRight {
+  float: left;
+  width: 80%;
+  font-size: 20px;
+  /* padding: 15px 0; */
+  padding: 15px 20px;
+}
+.news__eventRight p{
+  color: #7c7c7c;
+}
+
+.news__eventRight p:first-of-type {
+  padding: 15px 0;
+  line-height: 1.5;
+}
+
+/* event right bottom */
+
+.news__eventRightBottom p{
+  color: #143255;
+  font-size: 20px;
+}
+.news__eventRightTime {
+  float: left;
+  width: 40%;
+  border-right: 1px solid #dbdddd;
+  padding: 0 20px;
+}
+
+.news__eventRightPlace {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+/* ====================================== */
+/* FOOTER */
+.footer {
+  background-color: #002146;
+  padding: 30px 0;
+  color: white;
+}
+
+.footer hr {
+  margin: auto;
+  width: 80%;
+  border: 1px solid #818383;
+}
+
+.footer__content {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.footer__detail {
+  float: left;
+  width: 33.33%;
+  /* border: 1px solid white; */
+  padding: 20px;
+}
+.footer__detail h1 {
+  margin-bottom: 20px;
+}
+
+.footer_detailContact {
+  margin: 10px 0;
+}
+.footer_detailContact a {
+  text-decoration: none;
+  color: #fcc800;
+}
+
+.footer_detailContact span{
+  color: white;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.footer__detail ul {
+  list-style: none;
+}
+
+.footer__detail a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__detail li {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.footer__copyright {
+  padding: 20px;
+}
+.footer__copyright span{
+  color: #818383;
+}
