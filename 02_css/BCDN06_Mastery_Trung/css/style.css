@@ -158,8 +158,9 @@ html, body {
   float: left;
   width: 25%;
 
-  font-size: 50px;
+  font-size: 55px;
   padding: 20px;
+  line-height: 2;
 }
 
 .department__border {
@@ -172,6 +173,7 @@ html, body {
 .department__item a {
   text-decoration: none;
   color: white;
+  margin: 30px 0;
 }
 
 .department__item br {
