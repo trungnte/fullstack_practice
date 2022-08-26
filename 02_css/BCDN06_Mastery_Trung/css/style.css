@@ -183,7 +183,140 @@ html, body {
 
 /* ====================================== */
 /* NEWS */
+.news {
+  padding: 30px;
+  background-color: #f6f6f6;
+}
 
+.news__wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.news__item {
+  float: left;
+  width: 50%;
+  /* border: 3px solid black; */
+  padding: 20px;
+}
+
+.news__content {
+  background-color: white;
+  padding: 0 30px;
+  /* margin-top: 40px; */
+  margin: 40px 30px 20px 0;
+
+}
+
+.news__posts {
+  padding: 15px 0;
+  border-bottom: 1px solid #dbdddd;
+}
+
+.news__contentButton {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.news__contentButton button{
+  margin-top: 20px;
+  padding: 20px 35px;
+  background-color: #fcc800;
+  border: 1px solid #fcc800;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.news__postPicture {
+  float: left;
+  width: 30%;
+  padding: 10px 0;
+}
+.news__postDetail {
+  float: left;
+  width: 70%;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.news__postDetail p:first-of-type{
+  color: #929393;
+  padding: 15px 0;
+}
+
+.news__postDetail p:last-of-type {
+  color: #7c7c7c;
+  line-height: 1.5;
+}
+
+.news__postPicture img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ------------------------------------- */
+/* events */
+
+.news__eventLeft {
+  float: left;
+  width: 20%;
+  padding: 30px 10px;
+  background-color: white;
+}
+
+.news__eventLeftCard {
+  /* width: 15%; */
+  text-align: center;
+}
+.news__eventLeftCardTop {
+  color: black;
+  background-color: #fcc800;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+.news__eventLeftCardBottom {
+  color: white;
+  background-color: #032146;
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.news__eventRight {
+  float: left;
+  width: 80%;
+  font-size: 20px;
+  /* padding: 15px 0; */
+  padding: 15px 20px;
+}
+.news__eventRight p{
+  color: #7c7c7c;
+}
+
+.news__eventRight p:first-of-type {
+  padding: 15px 0;
+  line-height: 1.5;
+}
+
+/* event right bottom */
+
+.news__eventRightBottom p{
+  color: #143255;
+  font-size: 20px;
+}
+.news__eventRightTime {
+  float: left;
+  width: 40%;
+  border-right: 1px solid #dbdddd;
+  padding: 0 20px;
+}
+
+.news__eventRightPlace {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
 
 /* ====================================== */
 /* FOOTER */
